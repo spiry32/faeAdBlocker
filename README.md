@@ -1,4 +1,4 @@
-# faeAdBlocker `alpha`
+# faeAdBlocker `version alpha`
 <p align="left">
     <a href=""><img color="white" width="120px" src="https://github.com/spiry32/faeAdBlocker/assets/103727459/76d5f13c-29ba-4f14-aa66-f04fd27cb127" /></a>
 </p> A Simple, Fast and Easy AdBlocker for Google Chrome and its derivatives. By projectfae.
