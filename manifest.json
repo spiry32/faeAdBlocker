@@ -1,0 +1,42 @@
+{
+    "manifest_version": 3,
+    "name": "faeAdBlocker",
+    "version": "0.1",
+    "description": "A simple, fast and easy Adblocker for Google Chrome and its derivatives. By projectfae.",
+    "permissions": [
+      "declarativeNetRequest",
+      "declarativeNetRequestWithHostAccess",
+      "activeTab",
+      "storage"
+    ],
+    "declarative_net_request": {
+      "rule_resources": [
+        {
+          "id": "ruleset_1",
+          "enabled": true,
+          "path": "rules/rules.json"
+        }
+      ]
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    },
+    "options_ui": {
+        "page": "popup.html",
+        "open_in_tab": false
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+  
