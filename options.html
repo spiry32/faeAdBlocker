@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdBlocker Options</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      font-size: 18px;
+      margin: 0 0 10px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 5px;
+      margin: 5px 0 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    button {
+      padding: 10px 15px;
+      background-color: #2196F3;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    button:disabled {
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>AdBlocker Options</h1>
+  <label for="domains">Blocked Domains (one per line):</label>
+  <textarea id="domains" rows="10"></textarea>
+  <button id="saveBtn">Save</button>
+  <script src="options.js"></script>
+</body>
+</html>
